@@ -9,7 +9,7 @@
 set J;
 /* set of jobs (activities) */
 
-set P{j in J}, in J, default {};
+set P{j in J}, within J, default {};
 /* P[j] is a subset of jobs that immediately precede job j */
 
 param t{j in J}, >= 0;
